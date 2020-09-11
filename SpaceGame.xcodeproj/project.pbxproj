@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B1135A090A1C85CCB04C4EC /* Pods_SpaceGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED957B08C1307871CA6F19F /* Pods_SpaceGame.framework */; };
+		BA1C05AE229F709500C71965 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BA1C05AD229F709500C71965 /* GoogleService-Info.plist */; };
+		BA1F9D3B229F2A5000DFE2B8 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA1F9D3A229F2A5000DFE2B8 /* GameOver.swift */; };
+		BA44F2FA229E258700D734AC /* error.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BA44F2F9229E258700D734AC /* error.mp3 */; };
+		BA44F2FC229E269600D734AC /* GameOver.sks in Resources */ = {isa = PBXBuildFile; fileRef = BA44F2FB229E269600D734AC /* GameOver.sks */; };
+		BA969A50229F9415005F96E0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA969A4F229F9415005F96E0 /* ViewController.swift */; };
+		BADB31B62297A89800360060 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB31B52297A89800360060 /* AppDelegate.swift */; };
+		BADB31B82297A89800360060 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = BADB31B72297A89800360060 /* GameScene.sks */; };
+		BADB31BA2297A89800360060 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = BADB31B92297A89800360060 /* Actions.sks */; };
+		BADB31BC2297A89800360060 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB31BB2297A89800360060 /* GameScene.swift */; };
+		BADB31BE2297A89800360060 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BADB31BD2297A89800360060 /* GameViewController.swift */; };
+		BADB31C12297A89800360060 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADB31BF2297A89800360060 /* Main.storyboard */; };
+		BADB31C32297A89800360060 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BADB31C22297A89800360060 /* Assets.xcassets */; };
+		BADB31C62297A89800360060 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BADB31C42297A89800360060 /* LaunchScreen.storyboard */; };
+		BADB31CF2297AA3600360060 /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADB31CD2297AA3500360060 /* torpedo.mp3 */; };
+		BADB31D02297AA3600360060 /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BADB31CE2297AA3600360060 /* explosion.mp3 */; };
+		BADB31D52297AB5100360060 /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = BADB31D32297AB5100360060 /* Starfield.sks */; };
+		BADB31D62297AB5100360060 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = BADB31D42297AB5100360060 /* Explosion.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		69F9C0504887ABE3BC19F03A /* Pods-SpaceGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceGame.release.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceGame/Pods-SpaceGame.release.xcconfig"; sourceTree = "<group>"; };
+		AED957B08C1307871CA6F19F /* Pods_SpaceGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpaceGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1C05AD229F709500C71965 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		BA1F9D3A229F2A5000DFE2B8 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		BA44F2F9229E258700D734AC /* error.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = error.mp3; sourceTree = "<group>"; };
+		BA44F2FB229E269600D734AC /* GameOver.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameOver.sks; sourceTree = "<group>"; };
+		BA969A4F229F9415005F96E0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BADB31B22297A89800360060 /* SpaceGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpaceGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BADB31B52297A89800360060 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BADB31B72297A89800360060 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		BADB31B92297A89800360060 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		BADB31BB2297A89800360060 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		BADB31BD2297A89800360060 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		BADB31C02297A89800360060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BADB31C22297A89800360060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BADB31C52297A89800360060 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BADB31C72297A89800360060 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BADB31CD2297AA3500360060 /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		BADB31CE2297AA3600360060 /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		BADB31D32297AB5100360060 /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		BADB31D42297AB5100360060 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		E1D5C00CD8000CF9F67F4A91 /* Pods-SpaceGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpaceGame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SpaceGame/Pods-SpaceGame.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BADB31AF2297A89800360060 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B1135A090A1C85CCB04C4EC /* Pods_SpaceGame.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D13FC243523B80D42C0E65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1D5C00CD8000CF9F67F4A91 /* Pods-SpaceGame.debug.xcconfig */,
+				69F9C0504887ABE3BC19F03A /* Pods-SpaceGame.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B3A902B662B9A28A824729E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AED957B08C1307871CA6F19F /* Pods_SpaceGame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BA1F9D39229F294E00DFE2B8 /* GameOver */ = {
+			isa = PBXGroup;
+			children = (
+				BA1F9D3A229F2A5000DFE2B8 /* GameOver.swift */,
+				BA44F2FB229E269600D734AC /* GameOver.sks */,
+			);
+			path = GameOver;
+			sourceTree = "<group>";
+		};
+		BA44F2F2229E187300D734AC /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				BADB31B72297A89800360060 /* GameScene.sks */,
+				BADB31BB2297A89800360060 /* GameScene.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		BA44F2F3229E188E00D734AC /* Emitters */ = {
+			isa = PBXGroup;
+			children = (
+				BADB31D42297AB5100360060 /* Explosion.sks */,
+				BADB31D32297AB5100360060 /* Starfield.sks */,
+			);
+			path = Emitters;
+			sourceTree = "<group>";
+		};
+		BA44F2F4229E189D00D734AC /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				BA44F2F9229E258700D734AC /* error.mp3 */,
+				BADB31CE2297AA3600360060 /* explosion.mp3 */,
+				BADB31CD2297AA3500360060 /* torpedo.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		BADB31A92297A89800360060 = {
+			isa = PBXGroup;
+			children = (
+				BADB31B42297A89800360060 /* SpaceGame */,
+				BADB31B32297A89800360060 /* Products */,
+				5D13FC243523B80D42C0E65E /* Pods */,
+				B3A902B662B9A28A824729E6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BADB31B32297A89800360060 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BADB31B22297A89800360060 /* SpaceGame.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BADB31B42297A89800360060 /* SpaceGame */ = {
+			isa = PBXGroup;
+			children = (
+				BADB31B52297A89800360060 /* AppDelegate.swift */,
+				BADB31BD2297A89800360060 /* GameViewController.swift */,
+				BA969A4F229F9415005F96E0 /* ViewController.swift */,
+				BADB31B92297A89800360060 /* Actions.sks */,
+				BADB31BF2297A89800360060 /* Main.storyboard */,
+				BA1F9D39229F294E00DFE2B8 /* GameOver */,
+				BA44F2F2229E187300D734AC /* Game */,
+				BA44F2F3229E188E00D734AC /* Emitters */,
+				BA44F2F4229E189D00D734AC /* Sound */,
+				BADB31C22297A89800360060 /* Assets.xcassets */,
+				BADB31C42297A89800360060 /* LaunchScreen.storyboard */,
+				BADB31C72297A89800360060 /* Info.plist */,
+				BA1C05AD229F709500C71965 /* GoogleService-Info.plist */,
+			);
+			path = SpaceGame;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BADB31B12297A89800360060 /* SpaceGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BADB31CA2297A89800360060 /* Build configuration list for PBXNativeTarget "SpaceGame" */;
+			buildPhases = (
+				1C4CBA5AAF8EC8BB30683BA9 /* [CP] Check Pods Manifest.lock */,
+				BADB31AE2297A89800360060 /* Sources */,
+				BADB31AF2297A89800360060 /* Frameworks */,
+				BADB31B02297A89800360060 /* Resources */,
+				51E49443B758434A76B26736 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpaceGame;
+			productName = SpaceGame;
+			productReference = BADB31B22297A89800360060 /* SpaceGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BADB31AA2297A89800360060 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Armaana Thapar";
+				TargetAttributes = {
+					BADB31B12297A89800360060 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BADB31AD2297A89800360060 /* Build configuration list for PBXProject "SpaceGame" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BADB31A92297A89800360060;
+			productRefGroup = BADB31B32297A89800360060 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BADB31B12297A89800360060 /* SpaceGame */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BADB31B02297A89800360060 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BADB31C12297A89800360060 /* Main.storyboard in Resources */,
+				BA44F2FA229E258700D734AC /* error.mp3 in Resources */,
+				BADB31B82297A89800360060 /* GameScene.sks in Resources */,
+				BADB31C32297A89800360060 /* Assets.xcassets in Resources */,
+				BADB31C62297A89800360060 /* LaunchScreen.storyboard in Resources */,
+				BA1C05AE229F709500C71965 /* GoogleService-Info.plist in Resources */,
+				BADB31D02297AA3600360060 /* explosion.mp3 in Resources */,
+				BADB31CF2297AA3600360060 /* torpedo.mp3 in Resources */,
+				BADB31D52297AB5100360060 /* Starfield.sks in Resources */,
+				BADB31D62297AB5100360060 /* Explosion.sks in Resources */,
+				BA44F2FC229E269600D734AC /* GameOver.sks in Resources */,
+				BADB31BA2297A89800360060 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C4CBA5AAF8EC8BB30683BA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpaceGame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E49443B758434A76B26736 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SpaceGame/Pods-SpaceGame-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SpaceGame/Pods-SpaceGame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BADB31AE2297A89800360060 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA969A50229F9415005F96E0 /* ViewController.swift in Sources */,
+				BADB31BC2297A89800360060 /* GameScene.swift in Sources */,
+				BADB31BE2297A89800360060 /* GameViewController.swift in Sources */,
+				BADB31B62297A89800360060 /* AppDelegate.swift in Sources */,
+				BA1F9D3B229F2A5000DFE2B8 /* GameOver.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BADB31BF2297A89800360060 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB31C02297A89800360060 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BADB31C42297A89800360060 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BADB31C52297A89800360060 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BADB31C82297A89800360060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BADB31C92297A89800360060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BADB31CB2297A89800360060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1D5C00CD8000CF9F67F4A91 /* Pods-SpaceGame.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVD3RGS4ZL;
+				INFOPLIST_FILE = SpaceGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.SpaceGameA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BADB31CC2297A89800360060 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F9C0504887ABE3BC19F03A /* Pods-SpaceGame.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LVD3RGS4ZL;
+				INFOPLIST_FILE = SpaceGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.company.SpaceGameA;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BADB31AD2297A89800360060 /* Build configuration list for PBXProject "SpaceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB31C82297A89800360060 /* Debug */,
+				BADB31C92297A89800360060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BADB31CA2297A89800360060 /* Build configuration list for PBXNativeTarget "SpaceGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADB31CB2297A89800360060 /* Debug */,
+				BADB31CC2297A89800360060 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BADB31AA2297A89800360060 /* Project object */;
+}
